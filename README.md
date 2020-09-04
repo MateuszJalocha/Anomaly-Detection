@@ -31,6 +31,15 @@ In addition to the temperature measures mentioned above, the following values, w
 
 SYNOP codes can take values from 0 to 99, they indicate the type of weather in the current and previous hours. Detailed meaning of all codes is given in the source files of the work.
 
+## Files
+
+The analysis file is made in Polish, but the comments in the files with code are in English.
+
+- **Data directory** - you can find there a csv file with data and txt file with description of variables and Synops
+- **PDF directory** - Reasearch paper with analysis (polish language)
+- **Images directory** - you can find there plots included in README
+- **anomalyDetection.py** - project file
+
 ## Main libraries
 
 - **sklearn** - Machine Learning
