@@ -2,6 +2,10 @@
 
 Meteorology is one of the fields using algorithms to find anomalies in a data set, and searching for weather anomalies using machine learning methods is the subject of numerous scientific works. The aim of this work is to create models which will be able to recognise weather anomalies in the best possible way. The study is based on data from Dublin Airport and includes hourly weather information from 1989 (00:00) to 31 October 2019 (23:00). The database is being updated with some delay, so the data we downloaded ends in October this year. The classification was carried out in an unsupervised manner, so the observation data are not defined in advance as weather anomalies, but this task is left to the classification methods. The potential outlier observations identified by the algorithms will then be verified on the basis of the weather description already included in the data set. The study was conducted in Python programming language. **K-Means**, **Isolation Forest** and **One-Class SVM** methods were used to create models to detect anomalies. The Rand Index method and a comparison of the results with the weather variables of the current and previous hour were used to select the method whose results turned out to be the best.
 
+<p align="center">
+<img align = "center" src ="Images/anomalyDetection_KMeans.png" /> <img align = "center" src ="Images/anomalyDetection_KMeans2.png" />
+</p>
+
 ## Data
 
 Data for Dublin airport is from the Irish Meteorological Service. These are hourly data collected from 1 January 1989 (00:00) to 31 October 2019 (23:00). The variables describing the weather at Dublin airport are:
