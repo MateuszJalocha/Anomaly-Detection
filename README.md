@@ -29,17 +29,14 @@ SYNOP codes can take values from 0 to 99, they indicate the type of weather in t
 
 ## Main libraries
 
-- **mlr** - Machine Learning
+- **sklearn** - Machine Learning
 
-- **ggplot2**, **corrplot** - Plots
+- **matplotlib.pyplot**, **seaborn**, **mpl_toolkits.mplot3d** - Visualization
 
-- **grixExtra**, **kableExtra**, **flextable** - Rmarkdown
-
-- **rvest** - Webscrapping
-
-- **tidyverse**, **psych**, **officer**, **caret**, **reshape2**, **caTools** - Generally useful libraries
+- **pandas**, **numpy**, **dateutil**, **collections**, **itertools** - Generally useful libraries
 
 ## Contributors
 
 - **Mateusz Jałocha** (mat.jalocha@gmail.com, https://www.linkedin.com/in/mateusz-jałocha-8942701b6/)
-
+- **Jakub Ignatik** (https://github.com/JakubIg, https://www.linkedin.com/in/jakub-ignatik/)
+- **Jakub Augustynek** (https://www.linkedin.com/in/jakub-augustynek-881a07188/)
