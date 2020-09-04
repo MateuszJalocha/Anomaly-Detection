@@ -33,7 +33,7 @@ SYNOP codes can take values from 0 to 99, they indicate the type of weather in t
 
 ## Files
 
-The analysis file is made in Polish, but the comments in the files with code are in English.
+The analysis file is made in Polish, but comments in the files with code are in English.
 
 - **Data directory** - you can find there a csv file with data and txt file with description of variables and Synops
 - **PDF directory** - reasearch paper with analysis (polish language)
