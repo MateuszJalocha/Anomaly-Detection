@@ -24,17 +24,17 @@ Data for Dublin airport is from the Irish Meteorological Service. These are hour
 - clht - Cloud Ceiling Height - if none value is 999 (100s feet)
 - clamt - Cloud Amount (okta)
 
-In addition to the temperature measures mentioned above, the following values, which are not part of the classification of observations, are also present in the data set:
+In addition to the temperature measures mentioned above, the following values (which are not part of the dataset used to classification) are also present in the data set:
 
 - w - Synop Code Past Weather
 - ww - Synop Code Present Weather
 
-SYNOP codes can take values from 0 to 99, they indicate the type of weather in the current and previous hours. Detailed meaning of all codes is given in the source files of the work.
+SYNOP codes can take values from 0 to 99, they indicate the type of weather in the current and previous hours. Detailed meaning of all codes is given in the source files of the repository.
 
 ## Conclusions
 
 On the basis of the results obtained in the study, it is not possible to clearly determine which method works best and to what extent it does it effectively. It should be taken into account that the detection of the anomaly does not necessarily involve the discovery of the beginning of weather changes to extremely dangerous. However, the results bring an informative value to the fact that the conditions are extremely abnormal and may be conducive to weather conditions that prove to be dangerous for nearby flights. Therefore, the models used in the project can be used to support the search, anticipation and prevention of situations that threaten the safety of people in the vicinity of Dublin airport. However, taking into account the analysis of variable distributions for the anomaly and its deficiencies, two-dimensional charts and weather analysis following the detected anomalies based on SYNOP codes, the Isolation Forest method seems to be the best in this case. The distribution of anomalies in two-dimensional diagrams is much more practical
-than for the K-means method, due to the variance of the anomalies detected, while their density distributions for selected variables differ greatly more than with the SVM method.
+than for the K-means method, due to the variance of the anomalies detected, while density distributions for selected variables differ greatly more than with the SVM method.
 
 ## Files
 
